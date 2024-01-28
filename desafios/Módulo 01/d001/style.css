@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+mark {
+    background-color: #127369;
+    color: #BFBFBF;
+    box-shadow: 5px 5px 15px #BFBFBF;
+}
+
+body {
+    background-image: linear-gradient(to right, #10403B, #8AA6A3);
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+}

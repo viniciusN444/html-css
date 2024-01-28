@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to right, #05C7F2, #F2F2F2);
+}
+
+h1 {
+    background-color: #0388A6;
+    color: #F2F2F2;
+    text-align: center;
+}
+
+p {
+    color: black;
+    text-align: center;
+}
+

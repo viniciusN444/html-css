@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* 
+@font-face {
+    font-family: 'idroid';
+    src: url('idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #84E1AD;
+    text-align: center;
+}
+
+/* header - CABEÇALHO*/
+header {
+    background-color: #2B975B;
+    color: white;
+    margin: -9px 150px 0px 150px
+}
+
+header > h1 {
+    text-align: center;
+}
+
+header > p {
+    color: #74AC8D;
+    text-align: center;
+}
+
+header > nav > li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+    margin: 10px;
+}
+
+/* main- CORPPO PRINCIPAL */
+
+main {
+    background-color: white;
+    margin: -19px 150px 0px 150px
+}
+
+main > p {
+    text-align: center;
+}
+
+
+#h1Main {
+    color: #1D5E3B;
+    text-align: left;  
+    padding: 10px;
+}
+
+.fundoH2 {
+    color: #1D5E3B;
+    background-color: #DBF3E6;
+    border-radius: 10px 0px;
+    text-align: left;
+    padding: 10px;
+}
+
+main > p {
+    text-indent: 25px;
+}
+
+.bugdroid {
+    display: inline-block;
+    margin: auto;
+}
+
+aside {
+    background-color: white;
+    margin: -10px 150px 0px 150px
+}
+
+
+aside > iframe {
+    padding: 18px 25px 18px 25px;
+    background-color: #1A5C38;
+    
+}  
+
+/* PAREI AQUI */
+footer {
+    background-color: white;
+    margin: -14px 150px 0px 150px
+}
+footer > h3 {
+    background-color: #2B975B; 
+    color:  white;  
+}
+footer > ul > li {
+    list-style-type: none;
+    background-color: #DBF3E6;
+    text-align: center;
+}
+
+
+

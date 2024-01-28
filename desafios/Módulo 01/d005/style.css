@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+#minhaFoto {
+    height: 20em;
+    border-radius: 25px;
+}
+
+body {
+    color: white;
+    background-color: #191919;
+}
+
+h1 {
+    padding: 10px;
+}
+
+h2 {
+    padding: 10px;
+}
+
+h2 span {
+    color: brown;
+}
+
+
+h1 span {
+    color: crimson;
+}
+
+p {
+    text-indent: 20px;
+}
+
+span {
+    color: crimson;
+}
+
+a:hover {
+    color: crimson;
+}
