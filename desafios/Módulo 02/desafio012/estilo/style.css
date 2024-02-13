@@ -50,6 +50,10 @@ a:hover {
     text-decoration: underline;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -67,12 +71,25 @@ section.normal {
 section.imagem {
     background-color: rgb(53, 50, 50);
     color: white;
+    box-shadow: inset 6px 6px 1px 0px rgba(0, 0, 0, 0.06);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem  > p {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.516);
+    box-shadow: 1px 1px 0px black;
     padding: 5px;
+}
+
+section#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+
+section#img02 {
+    background-image: url('../imagens/background002.jpg');
 }
 
 footer {
