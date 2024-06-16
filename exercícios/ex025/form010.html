@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="iano">Em que ano você nasceu?</label>
+            <input type="number" name="anoNasc" id="inasc" required
+            oninput="iIdade.innerHTML =Number(ianoA.value) - Number(inasc.value)">
+        </p>
+
+        <p>
+            <label for="ianoA">Em que ano estamos?</label>
+            <input type="number" name="anoAtual" id="ianoA"
+            oninput="iIdade.innerHTML =Number(ianoA.value) - Number(inasc.value)">
+        </p>
+
+        <p>
+            <label for="iIdade">Sua idade é </label>
+            <output name="idade" id="iIdade">X</output>
+        </p>
+        <p>
+            <input type="submit">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>    
+</body>
+</html>
