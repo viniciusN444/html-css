@@ -20,8 +20,13 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     padding: 10px;
+}
+
+h1{
+    flex: 0 0 150px;
+    /*1° zero: creser(grow), 2° zero: diminuir()shinrnk, 150px(flex-basis)*/
 }
 
 @media (max-width: 576px) {
@@ -59,16 +64,17 @@ header > nav{
 
 header > nav > a{
     background-color: black;
-    border-radius: 10px;
     color: white;
-    text-decoration: none;
     padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
 }
 
 header > nav > a:hover{
     background-color: white;
     color: black;
     font-weight: bold;
+    transition: background-color .5s;
 }
 
 main{
