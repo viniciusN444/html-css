@@ -29,7 +29,7 @@ h1{
     /*1° zero: creser(grow), 2° zero: diminuir()shinrnk, 150px(flex-basis)*/
 }
 
-@media (max-width: 576px) {
+@media screen and  (max-width: 576px) {
     header{
         display: block;
         text-align: center;
@@ -48,13 +48,6 @@ h1{
         width: 90vw;
         margin: 10px 0px;
     }
-    
-    main {
-        width: 100%;
-        max-width: 450px;
-        margin: 0 auto;
-    }
-    
 }
 
 header > nav{
@@ -82,7 +75,8 @@ main{
     border-radius: 10px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.485);
     padding: 10px;
-    margin:  10px;
+    margin:  10px auto;
+    width: 80%;
     text-align: justify;
 }
 
