@@ -16,12 +16,50 @@ header, section.normal{
     padding: 20px;
 }
 
+h1,h2{
+    margin-bottom: 20px;   
+    line-height: 1.2em;
+    text-align: left;
+}
+
+p{
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
 section.flex-content{
     background-color: rgb(207, 196, 196);
     padding: 20px;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
-p,h1,h2{
-    margin-bottom: 10px;
-    text-align: justify;
+.media-text{
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+}
+
+.text-media{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+article > div.text{
+    flex:  0 0 500px;
+}
+
+article > div.media{
+    flex:  0 0 500px;
+}
+
+div.media > img, 
+div.media > iframe{
+    display: block;
+    margin: auto;
+}
+
+div.media > iframe{
+    width: 90%;
 }
